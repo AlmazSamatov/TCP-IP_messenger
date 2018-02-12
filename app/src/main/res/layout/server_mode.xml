@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="70dp"
+        android:text="@string/server_mode_setup" />
+
+    <TextView
+        android:id="@+id/ip_address_server"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:textSize="22sp"
+        android:text="@string/ip_address" />
+
+    <TextView
+        android:id="@+id/ip_address_value_server"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/port_server"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:textSize="22sp"
+        android:text="@string/port" />
+
+    <EditText
+        android:id="@+id/port_value_server"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:textSize="22sp"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:onClick="openOnClick"
+        android:text="@string/open" />
+
+
+</LinearLayout>

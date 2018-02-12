@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="client_mode">Client mode</string>
+    <string name="server_mode">Server mode</string>
+    <string name="ip_address">IP address:</string>
+    <string name="port">Port:</string>
+    <string name="open">Open</string>
+    <string name="server_mode_setup">Server mode setup</string>
+    <string name="client_mode_setup">Client mode setup</string>
+    <string name="connect">Connect</string>
+    <string name="send">Send</string>
+</resources>
